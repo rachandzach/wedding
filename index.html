@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Rach and Zach's Wedding&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Tailwind CSS CDN --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Google Fonts - Playfair Display --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Lato', sans-serif; /* Using Lato for readability */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #FBF8F0; /* Light creamy beige background */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #5D5D5D; /* Darker gray for better contrast and readability */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 900px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1, h2, h3, h4, .font-serif {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Playfair Display', serif; /* Serif for headings */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.event-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #EAEAEA;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.event-card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-5px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-primary {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #D4A299; /* Muted peach/salmon for buttons */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.75rem 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: background-color 0.2s ease-in-out, transform 0.2s ease;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-primary:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #C3928B; /* Darker peach/salmon on hover */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-title {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #90A99E; /* Earthy green/sage for section titles */</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-accent {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #D4A299; /* Muted peach/salmon accent color */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-secondary-accent {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #90A99E; /* Earthy green/sage for secondary accents */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-primary-content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #5D5D5D;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.7;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="p-4 sm:p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container mx-auto bg-white rounded-3xl shadow-xl p-6 sm:p-8 md:p-12 my-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Header Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header class="text-center mb-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-4xl sm:text-5xl font-bold text-accent mb-4 font-serif"&gt;Rach and Zach's Wedding&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-lg text-primary-content max-w-3xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>We are so grateful you're making the trip out to Santa Barbara, and cannot wait to celebrate with you in just a few more days! Below is a refresher of the events and key information to know for the weekend.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Weekend Events &amp; Shuttle Info Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title text-3xl mb-8 font-serif"&gt;Weekend Events &amp; Shuttle Info&lt;/h2&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Welcome Party --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="event-card p-6 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-2xl font-bold text-secondary-accent mb-3 font-serif"&gt;Welcome Party – Friday&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;When:&lt;/strong&gt; 6:00 PM – 9:00 PM&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Where:&lt;/strong&gt; Hotel Californian, Mirador Rooftop (&lt;a href="https://maps.app.goo.gl/yLz1Z27L4mZ7X2B2A" target="_blank" class="text-accent hover:underline"&gt;36 State Street, Santa Barbara, CA 93101&lt;/a&gt;)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Attire:&lt;/strong&gt; Dressy Casual&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-4"&gt;&lt;strong class="text-secondary-accent"&gt;Vibe:&lt;/strong&gt; Food and drinks mixed with music and gorgeous views to kickoff the weekend.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="btn-primary"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-title="Rach &amp; Zach's Welcome Party"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-start-utc="20250719T010000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-end-utc="20250719T040000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-location="Hotel Californian, Mirador Rooftop, 36 State Street, Santa Barbara, CA 93101"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-description="Attire: Dressy Casual. Vibe: Food and drinks mixed with music and gorgeous views to kickoff the weekend."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Add to Calendar</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Wedding Day --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="event-card p-6 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-2xl font-bold text-secondary-accent mb-3 font-serif"&gt;The Wedding – Saturday&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Shuttle Pickup:&lt;/strong&gt; 3:30 PM sharp from Santa Barbara Visitors Center (&lt;a href="https://maps.app.goo.gl/g62XJ8Q3z4Y4X2B2A" target="_blank" class="text-accent hover:underline"&gt;120 State Street, Santa Barbara, CA 93101&lt;/a&gt;). Trust us—don’t miss this shuttle, it’s your only ride to the party!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Venue:&lt;/strong&gt; Rincon Pergola&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Attire:&lt;/strong&gt; Santa Barbara Cocktail&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-4"&gt;&lt;strong class="text-secondary-accent"&gt;Return Shuttles:&lt;/strong&gt; 10:00 PM: Back to Santa Barbara Visitors Center &amp; Hotel Californian (if you're calling it a night), or straight to Studio Sound Room if you're down to keep the party going.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="btn-primary"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-title="Rach &amp; Zach's Wedding"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-start-utc="20250719T223000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-end-utc="20250720T050000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-location="Rincon Pergola (Shuttle from Santa Barbara Visitors Center)"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-description="Shuttle Pickup: 3:30 PM sharp from Santa Barbara Visitors Center (120 State Street, Santa Barbara, CA 93101). Attire: Santa Barbara Cocktail. Return Shuttles at 10:00 PM."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Add to Calendar</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- After Party --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="event-card p-6 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-2xl font-bold text-secondary-accent mb-3 font-serif"&gt;After Party – Saturday Night&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;When:&lt;/strong&gt; 10:30 PM – 12:45 AM (or so...)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Where:&lt;/strong&gt; Studio Sound Room (&lt;a href="https://maps.app.goo.gl/N2z1X27L4mZ7X2B2A" target="_blank" class="text-accent hover:underline"&gt;28 Anacapa Street, Unit C, Santa Barbara, CA 93109&lt;/a&gt;)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-4"&gt;&lt;strong class="text-secondary-accent"&gt;Why?&lt;/strong&gt; Because there's a 0% chance the celebration of THIS marriage is ending at 10 PM. Big beats and big fun. Will be a packed house filled with love from loved ones celebrating this day with the amount of enthusiasm Rach has for every day.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="btn-primary"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-title="Rach &amp; Zach's After Party"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-start-utc="20250720T053000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-end-utc="20250720T074500Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-location="Studio Sound Room, 28 Anacapa Street, Unit C, Santa Barbara, CA 93109"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-description="The party continues! Big beats and big fun."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Add to Calendar</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Sunday Hang --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="event-card p-6 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-2xl font-bold text-secondary-accent mb-3 font-serif"&gt;Morning Hang/Goodbyes – Sunday&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;When:&lt;/strong&gt; 9:00 AM – 11:00 AM&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-2"&gt;&lt;strong class="text-secondary-accent"&gt;Where:&lt;/strong&gt; Municipal Winemakers (&lt;a href="https://maps.app.goo.gl/M2z1X27L4mZ7X2B2A" target="_blank" class="text-accent hover:underline"&gt;22 Anacapa Street, Santa Barbara, CA 93101&lt;/a&gt;)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-4"&gt;&lt;strong class="text-secondary-accent"&gt;Thank you!&lt;/strong&gt; Zach’s aunts and uncles, along with Beth and Todd Leonard, are graciously hosting a weekend send-off featuring breakfast burritos, açaí bowls, coffee, wine, and one last round of hugs, laughs, and memories before everyone heads home.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button class="btn-primary"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-title="Rach &amp; Zach's Sunday Send-off"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-start-utc="20250720T160000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-end-utc="20250720T180000Z"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-location="Municipal Winemakers, 22 Anacapa Street, Santa Barbara, CA 93101"</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>data-event-description="A weekend send-off with breakfast burritos, açaí bowls, coffee, wine, and one last round of hugs!"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Add to Calendar</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Additional Information Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="mb-12 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title text-3xl mb-8 font-serif"&gt;Good to Know&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="event-card p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-secondary-accent mb-3 font-serif"&gt;Weather Check&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-primary-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://weather.com/weather/weekend/l/0e0626f3d6aa79989875a02592d892e5cd4d50f4c50bdb73b525d3db29d0fa2f" target="_blank" class="text-accent hover:underline font-semibold"&gt;Click here for the forecast.&lt;/a&gt; Looking beautiful. Fingers crossed.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="event-card p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-secondary-accent mb-3 font-serif"&gt;Getting Around&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-primary-content"&gt;Once you are in Santa Barbara all of the events are walkable or shuttle-accessible.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Full Schedule &amp; Contact Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-title text-3xl mb-8 font-serif"&gt;More Details &amp; Contact&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="event-card p-6 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-xl font-bold text-secondary-accent mb-3 font-serif"&gt;Full Weekend Schedule &amp; Local Faves&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content mb-4"&gt;Check out &lt;a href="https://rachandzach.com" target="_blank" class="text-accent hover:underline font-semibold"&gt;rachandzach.com&lt;/a&gt; (Password: &lt;span class="font-mono bg-gray-100 px-2 py-1 rounded-md text-sm text-secondary-accent"&gt;071925&lt;/span&gt;) for all details and our favorite Santa Barbara spots!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-xl font-bold text-secondary-accent mb-3 font-serif"&gt;Questions or just wanna say hey?&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-primary-content"&gt;Reach us at &lt;a href="mailto:wedding@rachandzach.com" class="text-accent hover:underline font-semibold"&gt;wedding@rachandzach.com&lt;/a&gt;.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Closing Message --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer class="text-center mt-12 text-primary-content text-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="max-w-3xl mx-auto"&gt;Our love wouldn't be complete without our shared deep love for our family and friends, and this weekend wouldn't be complete without you there to celebrate with us.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="font-semibold text-xl mt-4 text-secondary-accent font-serif"&gt;We love you, and can't wait to see you! Rach and Zach&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// This script makes the 'Add to Calendar' buttons functional.</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.addEventListener('DOMContentLoaded', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Select all buttons that are intended to create a calendar event.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// We identify them by the 'data-event-title' attribute.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const calendarButtons = document.querySelectorAll('button[data-event-title]');</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>calendarButtons.forEach(button =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>// Add a click event listener to each button.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>button.addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// Retrieve the event details from the button's data attributes.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// encodeURIComponent ensures special characters in titles, etc., are handled correctly in the URL.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const title = encodeURIComponent(this.dataset.eventTitle);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const start = this.dataset.eventStartUtc; // The start time in UTC format (e.g., 20250719T010000Z)</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const end = this.dataset.eventEndUtc; <span class="Apple-converted-space">    </span>// The end time in UTC format</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const location = encodeURIComponent(this.dataset.eventLocation);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const description = encodeURIComponent(this.dataset.eventDescription);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// Construct the Google Calendar URL with the event details.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// Using UTC times with the 'Z' suffix ensures Google Calendar shows the event</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// in the user's local timezone correctly.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=${title}&amp;dates=${start}/${end}&amp;details=${description}&amp;location=${location}&amp;sf=true&amp;output=xml`;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>// Open the Google Calendar link in a new tab.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>window.open(googleCalendarUrl, '_blank');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>});</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
